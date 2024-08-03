@@ -1,8 +1,6 @@
 # mysql8-optimization-
 demo optimizations parameters for mysql 8 
-Here's the guide converted into Markdown format for easier reading and editing:
 
-```markdown
 # Tuning MySQL 8 for Large-Scale Database Systems
 
 When tuning MySQL 8, it is essential to consider the relationship between the number of CPU cores, available memory, and various configuration parameters. Properly aligning these parameters with the hardware resources ensures optimal performance, particularly for large-scale systems. Here’s an in-depth guide on how each parameter relates to the number of cores and memory, with specific tuning recommendations.
@@ -267,4 +265,3 @@ Here’s a quick reference table summarizing the recommended settings for a serv
 This table provides a quick overview of the recommended settings, highlighting the balance between available resources and performance tuning for large-scale MySQL 8 deployments.
 ```
 
-With this markdown file, you can easily view and modify the text using any text editor. Next, I'll convert this content into a PDF file for you.
