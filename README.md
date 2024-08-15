@@ -1,5 +1,5 @@
 # mysql8-optimization-
-demo optimizations parameters for mysql 8 
+
 
 # Tuning MySQL 8 for Large-Scale Database Systems
 
@@ -68,15 +68,7 @@ When tuning MySQL 8, it is essential to consider the relationship between the nu
   SET GLOBAL innodb_log_buffer_size = 64 * 1024 * 1024; -- 64 MB
   ```
 
-### query_cache_type and query_cache_size
 
-- **Relationship with Cores and Memory:** 0 (disabled), as query caching can lead to contention in multi-core environments.
-- **Consequence:** With sufficient RAM, a small query cache might still be useful for highly repetitive queries but is usually not recommended in MySQL 8 due to internal optimizations.
-- **Command:**
-  ```sql
-  SET GLOBAL query_cache_type = 0;
-  SET GLOBAL query_cache_size = 0;
-  ```
 
 ### table_open_cache
 
